@@ -6,7 +6,7 @@ This is an exercise working with an array of objects. We're writing functions to
 Fork and clone this repository and run the command "npm install" to install all dependencies.
 
 ## Exercise:
-Read the comments for each function in the file functions.js and write the code required to make each function return the appropriate value without modifying the original array.
+Read the comments for each function in the file index.js and write the code required to make each function return the appropriate value without modifying the original array.
 
 ## Running the tests
 Enter "npm test" in the console to run the tests. When all tests pass, the exercise is complete.
