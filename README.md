@@ -1,8 +1,6 @@
 # JavaScript Exercise #2
 
-
-![image of coins]
-(./coins.jpg)
+![./coins.jpg]
 
 This is an exercise working with an array of objects. We're writing functions to extract important information from an array of coin objects. There are four functions to be written, all of which have been started in the file index.js.
 
