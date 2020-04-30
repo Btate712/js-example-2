@@ -1,4 +1,4 @@
-# JavaScript Exercise #1
+# JavaScript Exercise #2
 
 This is an exercise working with an array of objects. We're writing functions to extract important information from an array of coin objects. There are four functions to be written, all of which have been started in the file index.js.
 
