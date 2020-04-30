@@ -20,10 +20,24 @@ const coins = [
   { coinType: "nickel", year: 2005, collectorValue: 0.05 }
 ];
 
-test('counts the number of coins of a specified type', () => {
+test('count() counts the number of coins of a specified type', () => {
   expect(functions.count(coins, "dime")).toBe(4);
 });
 
-test('sums the total face value of coins of a specified type', () => {
+test('faceValue() sums the total face value of coins of a specified type', () => {
   expect(functions.faceValue(coins, "dime")).toBe(0.4);
 });
+
+
+test('faceValue() sums the total face value of all coins if no type is specified', () => {
+  expect(functions.faceValue(coins)).toBe(1.65);
+});
+
+test('collectorValue() sums the total collector value of all coins', () => {
+  expect(functions.collectorValue(coins)).toBe(37.42);
+});
+
+test('mostValuable() returns the most valuable coin in the array', () => {
+  expect(functions.mostValuable(coins)).toEqual({coinType: "quarter", year: 1875, collectorValue: 34.00});
+})
+
